@@ -1,22 +1,22 @@
 class Ciderfy < Formula
   desc "CLI tool to transfer Spotify playlists to Apple Music"
   homepage "https://github.com/thomas-fazzari/ciderfy"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.4/ciderfy-osx-arm64.tar.gz"
-      sha256 "35bd8ea9e35816c05a110dc27e90dac800e7b6fc920fa2a251563026241b53bc"
+      url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.5/ciderfy-osx-arm64.tar.gz"
+      sha256 "0e48557607dd6582a78568e600436c78abdd5ea9f1ad45ffee7c6e9d12396fb7"
     else
-      url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.4/ciderfy-osx-x64.tar.gz"
-      sha256 "2235acf92f12496c8b6fe6ef3e54be1096f7c65ba49cb4845eac0e0875eafed8"
+      url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.5/ciderfy-osx-x64.tar.gz"
+      sha256 "c2b15e294b0cd2468a65f51de742478b7c61cc9d79fe95090783ca8e3f419db3"
     end
   end
 
   on_linux do
-    url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.4/ciderfy-linux-x64.tar.gz"
-    sha256 "fc8c1007ccbf7422656fee86f9f03fadd7a01020023dcaf9dd56bade95853811"
+    url "https://github.com/thomas-fazzari/ciderfy/releases/download/v1.0.5/ciderfy-linux-x64.tar.gz"
+    sha256 "5c6911293caccd296eb893b25cfa3a64f81267ef93fe6c600fa1ff8e78ff848b"
   end
 
   def install
