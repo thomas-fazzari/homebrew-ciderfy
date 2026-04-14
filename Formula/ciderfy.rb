@@ -1,5 +1,5 @@
 class Ciderfy < Formula
-  desc "CLI tool to transfer Spotify playlists to Apple Music"
+  desc "TUI tool to transfer Spotify playlists to Apple Music"
   homepage "https://github.com/thomas-fazzari/ciderfy"
   version "1.0.7"
   license "MIT"
